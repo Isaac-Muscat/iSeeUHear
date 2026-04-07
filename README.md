@@ -1,4 +1,3 @@
-# iSeeUhear
-## Image data to 3D sound
+# iSeeUhear - Image data to 3D sound
 
 WIP
