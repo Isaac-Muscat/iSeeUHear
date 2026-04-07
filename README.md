@@ -5,6 +5,12 @@ This project is the result of a course project from ECE532 at the University of 
 https://www.youtube.com/watch?v=gOi1m2fX8pc
 
 ## Project Structure
+The description of the main folders and files is as follows:
+* depth_algorithm_verification: Main directory to test and design the depth algorithm. The data directory was downloaded from https://vision.middlebury.edu/stereo/data/scenes2021/. The scripts contain all of the conversion and benchmark algorithm implementations.
+* vivado_tflite_runtime_proj: Contains base code for running the tensorflow tflite-micro runtime on the microblaze code.  The tflm-tree/tensorflow/lite/kernels/internal/reference has the core operations that can be tapped into to accelerate the runtime.
+* ip_repo: Contains the audio processor hardware module and the depth algorithm AXI IP (with the main  accelerator stereo_accel.v).
+* vivado_main_proj: Main directory for the fully integrated project containing verilog source files and c source files.
+
 ```
     .
     ├── depth_algorithm_verification                                 # Depth algorithm verification directory (downloaded from https://vision.middlebury.edu/stereo/data/scenes2021/)
