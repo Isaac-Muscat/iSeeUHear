@@ -16,7 +16,7 @@ https://www.youtube.com/watch?v=gOi1m2fX8pc
     │   └── vivado_axi_stereo_proj                                   # Sub-project used to validate the depth algorithm IP
     ├── ip_repo
     │   ├── axi_if_depth_algo_1.0                                    # Custom Depth Algorithm IP
-    │   └── axi_sum_reg_1.0
+    │   └── axi_sum_reg_1.0                                          # Custom Audio Processing IP
     ├── vivado_main_proj                                             # Main vivado project used for demo
     │   ├── project_camera.sdk/iSeeUhear/src
     |       └── helloworld.c                                         # Microblaze main C-code
@@ -25,7 +25,7 @@ https://www.youtube.com/watch?v=gOi1m2fX8pc
     │       ├── colour_mapper.v                                     # Custom VGA IP
     │       ├── pmod_cam.v                                          # Custom Camera IP
     |       └── tid_preamble_gen.v                                  # Custom Audio IP
-    |   └── system_block_diagram.tcl                                 # System Block Diagram Connections
+    |   └── system_block_diagram.tcl                                # System Block Diagram Connections
     └── 
 
 ```
