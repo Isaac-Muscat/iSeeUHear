@@ -7,7 +7,7 @@ https://www.youtube.com/watch?v=gOi1m2fX8pc
 ## Project Structure
 ```
     .
-    ├── depth_algorithm_verification                                 # Depth algorithm verification directory
+    ├── depth_algorithm_verification                                 # Depth algorithm verification directory (downloaded from https://vision.middlebury.edu/stereo/data/scenes2021/)
     │   ├── data                                                     # Stereo depth data used for algorithm verification
     │   ├── scripts                                                  # A variety of scripts used for testing, debug, and validation
     │   ├── vivado_tflite_runtime_proj                               # Sub-project used while getting tflite-micro to run on microblaze
