@@ -20,11 +20,12 @@ https://www.youtube.com/watch?v=gOi1m2fX8pc
     ├── vivado_main_proj                                             # Main vivado project used for demo
     │   ├── project_camera.sdk/iSeeUhear/src
     |       └── helloworld.c                                         # Microblaze main C-code
-    │   └── project_camera.srcs/sources_1/new
+    │   ├── project_camera.srcs/sources_1/new
     │       ├── VGA_controller.v                                    # Custom VGA IP
     │       ├── colour_mapper.v                                     # Custom VGA IP
     │       ├── pmod_cam.v                                          # Custom Camera IP
     |       └── tid_preamble_gen.v                                  # Custom Audio IP
+    |   └── system_block_diagram.tcl                                 # System Block Diagram Connections
     └── 
 
 ```
