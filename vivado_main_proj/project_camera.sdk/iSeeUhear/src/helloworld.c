@@ -413,6 +413,7 @@ static int cdma_move_frame(int i){
 }
 
 // ########################### Camera DMA Functions ############################################
+//Referenced VDMA setup from this repo: https://github.com/AG2048/ece532-project/blob/main/final_software/video_demo.c
 static int camera_vdma_init_once(void)
 {
 	XAxiVdma_Config *Config_0;
