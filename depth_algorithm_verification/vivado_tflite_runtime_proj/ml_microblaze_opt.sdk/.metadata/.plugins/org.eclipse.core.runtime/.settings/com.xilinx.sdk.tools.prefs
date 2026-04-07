@@ -1,0 +1,13 @@
+com.xilinx.sdk.linkgen.prefs.stereo_bram_bram_axi\:.bss=axi_bram_ctrl_0_Mem0
+com.xilinx.sdk.linkgen.prefs.stereo_bram_bram_axi\:.data=axi_bram_ctrl_0_Mem0
+com.xilinx.sdk.linkgen.prefs.stereo_bram_bram_axi\:.rodata=axi_bram_ctrl_0_Mem0
+com.xilinx.sdk.linkgen.prefs.stereo_bram_bram_axi\:.sbss=axi_bram_ctrl_0_Mem0
+com.xilinx.sdk.linkgen.prefs.stereo_bram_bram_axi\:.sbss2=axi_bram_ctrl_0_Mem0
+com.xilinx.sdk.linkgen.prefs.stereo_bram_bram_axi\:.sdata=axi_bram_ctrl_0_Mem0
+com.xilinx.sdk.linkgen.prefs.stereo_bram_bram_axi\:.sdata2=axi_bram_ctrl_0_Mem0
+com.xilinx.sdk.linkgen.prefs.stereo_bram_bram_axi\:.text=microblaze_0_local_memory_ilmb_bram_if_cntlr_Mem_microblaze_0_local_memory_dlmb_bram_if_cntlr_Mem
+com.xilinx.sdk.linkgen.prefs.stereo_bram_bram_axi\:heap=microblaze_0_local_memory_ilmb_bram_if_cntlr_Mem_microblaze_0_local_memory_dlmb_bram_if_cntlr_Mem
+com.xilinx.sdk.linkgen.prefs.stereo_bram_bram_axi\:heap-size=1024
+com.xilinx.sdk.linkgen.prefs.stereo_bram_bram_axi\:stack=microblaze_0_local_memory_ilmb_bram_if_cntlr_Mem_microblaze_0_local_memory_dlmb_bram_if_cntlr_Mem
+com.xilinx.sdk.linkgen.prefs.stereo_bram_bram_axi\:stack-size=1024
+eclipse.preferences.version=1

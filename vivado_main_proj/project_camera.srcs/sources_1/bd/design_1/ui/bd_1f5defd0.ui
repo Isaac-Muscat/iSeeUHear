@@ -1,0 +1,231 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "PinnedBlocks":"",
+   "PinnedPorts":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port vga_hsync -pg 1 -y 1740 -defaultsOSRD
+preplace port iic_rtl -pg 1 -y 110 -defaultsOSRD
+preplace port ad_lrclk -pg 1 -y 2100 -defaultsOSRD
+preplace port da_sclk -pg 1 -y 2190 -defaultsOSRD
+preplace port da_mclk -pg 1 -y 2030 -defaultsOSRD
+preplace port OV2_XCLK -pg 1 -y 50 -defaultsOSRD
+preplace port OV7670_HREF -pg 1 -y 800 -defaultsOSRD
+preplace port OV7670_VSYNC -pg 1 -y 860 -defaultsOSRD
+preplace port OV7670_XCLK -pg 1 -y 20 -defaultsOSRD
+preplace port OV2_HREF -pg 1 -y 1160 -defaultsOSRD
+preplace port da_lrclk -pg 1 -y 2130 -defaultsOSRD
+preplace port OV2_VSYNC -pg 1 -y 1220 -defaultsOSRD
+preplace port OV2_PCLK -pg 1 -y 1130 -defaultsOSRD
+preplace port sys_clock -pg 1 -y 480 -defaultsOSRD
+preplace port usb_uart -pg 1 -y 260 -defaultsOSRD
+preplace port iic_rtl2 -pg 1 -y 770 -defaultsOSRD
+preplace port OV7670_PCLK -pg 1 -y 770 -defaultsOSRD
+preplace port da_sdin -pg 1 -y 2220 -defaultsOSRD
+preplace port ad_mclk -pg 1 -y 2000 -defaultsOSRD
+preplace port vga_vsync -pg 1 -y 1700 -defaultsOSRD
+preplace port ad_sclk -pg 1 -y 2160 -defaultsOSRD
+preplace port reset -pg 1 -y 260 -defaultsOSRD
+preplace port DDR2_0 -pg 1 -y 510 -defaultsOSRD
+preplace portBus OV7670_RESET -pg 1 -y 450 -defaultsOSRD
+preplace portBus OV7670_PWDN -pg 1 -y 390 -defaultsOSRD
+preplace portBus sw -pg 1 -y 2290 -defaultsOSRD -right
+preplace portBus OV2_PWDN -pg 1 -y 420 -defaultsOSRD
+preplace portBus vga_b -pg 1 -y 1850 -defaultsOSRD
+preplace portBus btn -pg 1 -y 2350 -defaultsOSRD -right
+preplace portBus vga_r -pg 1 -y 1780 -defaultsOSRD
+preplace portBus OV7670_D -pg 1 -y 830 -defaultsOSRD
+preplace portBus led -pg 1 -y 2460 -defaultsOSRD
+preplace portBus dual_seven_seg -pg 1 -y 2510 -defaultsOSRD
+preplace portBus vga_g -pg 1 -y 1810 -defaultsOSRD
+preplace portBus OV2_D -pg 1 -y 1190 -defaultsOSRD
+preplace portBus OV2_RESET -pg 1 -y 480 -defaultsOSRD
+preplace inst dds_compiler_0 -pg 1 -lvl 7 -y 1800 -defaultsOSRD
+preplace inst axi_bram_ctrl_2_bram -pg 1 -lvl 9 -y 1530 -defaultsOSRD
+preplace inst axi_bram_ctrl_2 -pg 1 -lvl 7 -y 1150 -defaultsOSRD
+preplace inst left_bias_reg -pg 1 -lvl 7 -y 1950 -defaultsOSRD
+preplace inst i2s_transmitter_0 -pg 1 -lvl 9 -y 2110 -defaultsOSRD
+preplace inst axi_bram_ctrl_3 -pg 1 -lvl 7 -y 1310 -defaultsOSRD
+preplace inst axi_vdma_0 -pg 1 -lvl 4 -y 750 -defaultsOSRD
+preplace inst axi_iic_0 -pg 1 -lvl 9 -y 130 -defaultsOSRD
+preplace inst axi_bram_ctrl_4 -pg 1 -lvl 4 -y 1880 -defaultsOSRD
+preplace inst axi_iic_1 -pg 1 -lvl 9 -y 790 -defaultsOSRD
+preplace inst axi_vdma_1 -pg 1 -lvl 4 -y 1160 -defaultsOSRD
+preplace inst axi_bram_ctrl_0_bram -pg 1 -lvl 9 -y 1020 -defaultsOSRD
+preplace inst mig_7series_0 -pg 1 -lvl 9 -y 560 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 9 -y 390 -defaultsOSRD
+preplace inst axi_intc_0 -pg 1 -lvl 3 -y 340 -defaultsOSRD
+preplace inst colour_mapper_0 -pg 1 -lvl 5 -y 1670 -defaultsOSRD
+preplace inst axi_bram_ctrl_3_bram -pg 1 -lvl 9 -y 1870 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 3 -y 840 -defaultsOSRD
+preplace inst axi_smc -pg 1 -lvl 7 -y 350 -defaultsOSRD
+preplace inst axi_if_depth_algo_0 -pg 1 -lvl 7 -y 1520 -defaultsOSRD
+preplace inst axi_cdma_0 -pg 1 -lvl 5 -y 760 -defaultsOSRD
+preplace inst rst_mig_7series_0_81M -pg 1 -lvl 7 -y 590 -defaultsOSRD
+preplace inst xlconstant_2 -pg 1 -lvl 3 -y 940 -defaultsOSRD
+preplace inst microblaze_0_axi_periph -pg 1 -lvl 2 -y 490 -defaultsOSRD
+preplace inst axi_gpio_inputs -pg 1 -lvl 9 -y 2310 -defaultsOSRD
+preplace inst xlconstant_3 -pg 1 -lvl 5 -y 2190 -defaultsOSRD
+preplace inst pmod_cam_0 -pg 1 -lvl 3 -y 710 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 2 -y 990 -defaultsOSRD
+preplace inst tid_preamble_gen_0 -pg 1 -lvl 8 -y 2160 -defaultsOSRD
+preplace inst blk_mem_gen_0 -pg 1 -lvl 5 -y 2480 -defaultsOSRD
+preplace inst xlconstant_4 -pg 1 -lvl 3 -y 1250 -defaultsOSRD
+preplace inst pmod_cam_1 -pg 1 -lvl 3 -y 1120 -defaultsOSRD
+preplace inst xlconstant_5 -pg 1 -lvl 3 -y 1350 -defaultsOSRD
+preplace inst mdm_1 -pg 1 -lvl 3 -y 520 -defaultsOSRD
+preplace inst freq_reg -pg 1 -lvl 6 -y 2060 -defaultsOSRD
+preplace inst VGA_controller_0 -pg 1 -lvl 4 -y 1540 -defaultsOSRD
+preplace inst axi_bram_ctrl_1_bram -pg 1 -lvl 9 -y 1260 -defaultsOSRD
+preplace inst axi_uartlite_0 -pg 1 -lvl 9 -y 270 -defaultsOSRD
+preplace inst microblaze_0 -pg 1 -lvl 4 -y 370 -defaultsOSRD
+preplace inst axi_gpio_outputs -pg 1 -lvl 9 -y 2470 -defaultsOSRD
+preplace inst proc_sys_reset_mclk_24 -pg 1 -lvl 2 -y 1240 -defaultsOSRD
+preplace inst axi_bram_ctrl_4_bram_0 -pg 1 -lvl 5 -y 1970 -defaultsOSRD
+preplace inst rst_clk_wiz_1_100M -pg 1 -lvl 1 -y 280 -defaultsOSRD
+preplace inst axi_bram_ctrl_0 -pg 1 -lvl 7 -y 750 -defaultsOSRD
+preplace inst clk_wiz_1 -pg 1 -lvl 1 -y 470 -defaultsOSRD
+preplace inst microblaze_0_local_memory -pg 1 -lvl 7 -y 160 -defaultsOSRD
+preplace inst vol_reg -pg 1 -lvl 7 -y 2230 -defaultsOSRD
+preplace inst right_bias_reg -pg 1 -lvl 7 -y 2090 -defaultsOSRD
+preplace inst axi_bram_ctrl_1 -pg 1 -lvl 7 -y 980 -defaultsOSRD
+preplace netloc axi_vdma_1_M_AXI_S2MM 1 4 3 2550 360 NJ 360 NJ
+preplace netloc microblaze_0_axi_periph_M02_AXI 1 2 2 1200 230 1810J
+preplace netloc mig_7series_0_DDR2 1 9 1 NJ
+preplace netloc axi_gpio_outputs_gpio_io_o 1 9 1 N
+preplace netloc axi_if_depth_algo_0_o_rmem_addr 1 7 2 3990 1530 4490
+preplace netloc xlconstant_4_dout 1 3 1 1740
+preplace netloc VGA_controller_0_y 1 4 1 2430
+preplace netloc vol_reg_m_axis_tdata 1 7 1 3940
+preplace netloc freq_reg_0_m_axis_tvalid 1 6 1 3340
+preplace netloc axi_if_depth_algo_0_o_lmem_ena 1 7 2 4020 1520 4510
+preplace netloc VGA_controller_0_bank_2_addr 1 5 4 2940 1230 N 1230 N 1230 N
+preplace netloc pmod_cam_1_last 1 3 1 N
+preplace netloc OV7670_PCLK_1 1 0 3 NJ 770 710J 1080 1360J
+preplace netloc microblaze_0_axi_periph_M03_AXI 1 2 7 1260 50 NJ 50 NJ 50 NJ 50 NJ 50 NJ 50 4500J
+preplace netloc OV2_D_1 1 0 3 20J 1140 NJ 1140 1310
+preplace netloc axi_vdma_0_M_AXI_S2MM 1 4 3 2530 300 N 300 N
+preplace netloc microblaze_0_axi_periph_M01_AXI 1 2 1 1220
+preplace netloc axi_smc_M00_AXI 1 7 2 N 300 4630
+preplace netloc left_bias_reg_m_axis_tdata 1 7 1 3900
+preplace netloc sys_clock_1 1 0 1 NJ
+preplace netloc axi_vdma_1_s2mm_introut 1 1 4 830 -20 NJ -20 1710J -10 2410
+preplace netloc axi_vdma_0_s2mm_introut 1 1 4 820 -30 NJ -30 1720J -20 2420
+preplace netloc xlconstant_3_dout 1 4 5 2560 2670 2930 2420 N 2420 4000 1490 4560
+preplace netloc OV7670_HREF_1 1 0 3 NJ 800 700J 1100 1370J
+preplace netloc axi_iic_0_IIC 1 9 1 NJ
+preplace netloc OV2_PCLK_1 1 0 3 NJ 1130 NJ 1130 1400
+preplace netloc pmod_cam_0_pclk_out 1 3 1 1770
+preplace netloc microblaze_0_M_AXI_IC 1 4 3 2510 320 N 320 N
+preplace netloc microblaze_0_dlmb_1 1 4 3 2450 130 N 130 N
+preplace netloc microblaze_0_axi_periph_M00_AXI 1 2 7 1250J 40 NJ 40 NJ 40 N 40 N 40 N 40 4620
+preplace netloc axi_bram_ctrl_1_BRAM_PORTA 1 7 2 N 980 4570
+preplace netloc xlconcat_0_dout 1 2 1 1340
+preplace netloc microblaze_0_M_AXI_DP 1 1 4 800 -100 NJ -100 NJ -100 2440
+preplace netloc axi_gpio_outputs_gpio2_io_o 1 9 1 4960
+preplace netloc i2s_transmitter_0_lrclk_out 1 9 1 4970
+preplace netloc rst_clk_wiz_1_100M_mb_reset 1 1 3 720J 60 1210 190 1830J
+preplace netloc mig_7series_0_mmcm_locked 1 6 4 3440J 870 NJ 870 N 870 4930
+preplace netloc btn_1 1 9 1 4950
+preplace netloc VGA_controller_0_bank_3_addr 1 4 2 2560 1810 2930
+preplace netloc axi_bram_ctrl_2_bram_doutb 1 6 3 3440J 2340 3990J 1560 4480J
+preplace netloc right_bias_reg_m_axis_tdata 1 7 1 3880
+preplace netloc rst_clk_wiz_1_100M_bus_struct_reset 1 1 6 710 50 1220J 60 NJ 60 NJ 60 NJ 60 3400J
+preplace netloc axi_if_depth_algo_0_o_rmem_ena 1 7 2 3970 1550 4470
+preplace netloc microblaze_0_axi_periph_M14_AXI 1 2 7 1380J 620 1790J 540 NJ 540 NJ 540 3330J 490 NJ 490 4500
+preplace netloc axi_if_depth_algo_0_o_vmem_data 1 4 4 2530 2290 NJ 2290 3250 2410 3860
+preplace netloc axi_bram_ctrl_0_bram_doutb 1 4 5 2560 860 N 860 N 860 N 860 4630
+preplace netloc pmod_cam_0_valid 1 3 1 1710
+preplace netloc axi_smc_M03_AXI 1 6 2 3440 900 3860
+preplace netloc axi_if_depth_algo_0_o_vmem_addr 1 4 4 2520 2250 NJ 2250 3300 2350 3850
+preplace netloc mig_7series_0_ui_clk_sync_rst 1 6 4 3430J 880 NJ 880 N 880 4980
+preplace netloc xlconstant_5_dout 1 3 1 1850
+preplace netloc microblaze_0_axi_periph_M12_AXI 1 2 5 1240J 600 1800J 580 NJ 580 NJ 580 3360
+preplace netloc microblaze_0_axi_periph_M08_AXI 1 2 7 1270J 30 NJ 30 NJ 30 NJ 30 NJ 30 NJ 30 4580
+preplace netloc axi_cdma_0_M_AXI 1 5 2 2930 340 N
+preplace netloc microblaze_0_ilmb_1 1 4 3 2460 150 N 150 N
+preplace netloc axi_if_depth_algo_0_o_vmem_wea 1 4 4 2550 2270 NJ 2270 3280 2360 3840
+preplace netloc rst_mig_7series_0_81M_interconnect_aresetn 1 6 2 3450 60 3960
+preplace netloc xlconstant_1_dout 1 3 1 1720J
+preplace netloc pmod_cam_1_valid 1 3 1 1730
+preplace netloc VGA_controller_0_bank_1_addr 1 5 4 2930 850 N 850 N 850 4640
+preplace netloc mdm_1_debug_sys_rst 1 0 4 10J -80 NJ -80 NJ -80 1700
+preplace netloc OV2_HREF_1 1 0 3 -10J 1120 NJ 1120 1410
+preplace netloc axi_iic_0_iic2intc_irpt 1 1 9 790 -90 NJ -90 NJ -90 NJ -90 NJ -90 NJ -90 NJ -90 N -90 4970
+preplace netloc microblaze_0_axi_periph_M13_AXI 1 2 7 NJ 610 1760J 490 2540J 480 NJ 480 NJ 480 NJ 480 4540
+preplace netloc axi_bram_ctrl_0_BRAM_PORTA 1 7 2 N 750 4650
+preplace netloc rst_mig_7series_0_81M_peripheral_aresetn 1 7 2 4040 590 N
+preplace netloc axi_uartlite_0_UART 1 9 1 NJ
+preplace netloc microblaze_0_M_AXI_IP 1 1 4 810 -60 NJ -60 NJ -60 2430
+preplace netloc axi_smc_M05_AXI 1 3 5 1860 0 NJ 0 NJ 0 N 0 4040
+preplace netloc axi_iic_1_iic2intc_irpt 1 1 9 780 -40 NJ -40 NJ -40 NJ -40 NJ -40 NJ -40 NJ -40 N -40 4940
+preplace netloc sw_1 1 9 1 4960
+preplace netloc clk_wiz_1_clk_out_200 1 1 8 700J -10 NJ -10 1750J -30 NJ -30 NJ -30 NJ -30 NJ -30 4650J
+preplace netloc OV7670_D_1 1 0 3 NJ 830 690J 1090 1380J
+preplace netloc proc_sys_reset_mclk_24_peripheral_reset 1 2 7 1310 2100 NJ 2100 NJ 2100 2970J 2240 3290J 2390 NJ 2390 4650J
+preplace netloc xlconstant_2_dout 1 3 1 1830J
+preplace netloc axi_bram_ctrl_4_BRAM_PORTA 1 4 1 2410
+preplace netloc right_bias_reg_m_axis_tvalid 1 7 1 3870
+preplace netloc clk_wiz_1_mclk_24 1 1 9 740 20 NJ 20 NJ 20 NJ 20 NJ 20 NJ 20 NJ 20 4590J 1740 4930J
+preplace netloc i2s_transmitter_0_sdata_0_out 1 9 1 4930
+preplace netloc freq_reg_0_m_axis_tdata 1 6 1 3310
+preplace netloc Net 1 1 8 690 -50 N -50 1820 1440 2440 2280 NJ 2280 3260J 2400 3960J 1250 4600J
+preplace netloc microblaze_0_axi_periph_M11_AXI 1 2 5 1330J 590 1770J 570 NJ 570 NJ 570 3380
+preplace netloc microblaze_0_axi_periph_M10_AXI 1 2 5 1300J 210 NJ 210 NJ 210 NJ 210 3400
+preplace netloc Net1 1 0 4 10 1110 N 1110 1390 1030 1720J
+preplace netloc clk_wiz_1_locked 1 0 2 20 570 680
+preplace netloc axi_bram_ctrl_1_bram_doutb 1 4 5 2510 2110 2960 2230 3310 2330 3930 1270 N
+preplace netloc microblaze_0_axi_periph_M09_AXI 1 2 4 1290J 200 NJ 200 NJ 200 2960
+preplace netloc axi_bram_ctrl_3_BRAM_PORTA 1 7 2 NJ 1310 4530
+preplace netloc microblaze_0_debug 1 3 1 1720
+preplace netloc axi_smc_M01_AXI 1 6 2 3450 840 3920
+preplace netloc colour_mapper_0_blue 1 5 5 2950 1690 N 1690 3970 1700 NJ 1700 4970J
+preplace netloc left_bias_reg_m_axis_tvalid 1 7 1 3890
+preplace netloc rst_clk_wiz_1_100M_peripheral_reset 1 1 8 680J -70 NJ -70 NJ -70 2480J 1070 NJ 1070 N 1070 N 1070 4650
+preplace netloc axi_if_depth_algo_0_o_rmem_wea 1 7 2 4010 1540 4460
+preplace netloc pmod_cam_0_dout 1 3 1 N
+preplace netloc dds_compiler_0_M_AXIS_DATA 1 7 1 3910
+preplace netloc axi_if_depth_algo_0_o_lmem_addr 1 7 2 4040 1500 N
+preplace netloc vol_reg_m_axis_tvalid 1 7 1 3980
+preplace netloc rst_clk_wiz_1_100M_interconnect_aresetn 1 1 1 750
+preplace netloc s2mm_fsync_0_1 1 0 4 -10J 10 NJ 10 1350 1010 1840J
+preplace netloc pmod_cam_0_last 1 3 1 N
+preplace netloc axi_bram_ctrl_2_BRAM_PORTA 1 7 2 NJ 1150 4550
+preplace netloc tid_preamble_gen_0_M_AXIS_AUD 1 8 1 4490
+preplace netloc microblaze_0_axi_periph_M06_AXI 1 2 7 1320J 450 1800J 480 2510J 590 NJ 590 3390 830 4040 770 N
+preplace netloc clk_wiz_1_clk_out_25 1 0 10 20 170 770J 30 1240J 170 1780J 550 2450J 2120 2980J 2140 3350J 2370 4030J 2340 4610J 50 4980J
+preplace netloc pmod_cam_1_dout 1 3 1 N
+preplace netloc axi_smc_M02_AXI 1 6 2 3410 70 3830
+preplace netloc colour_mapper_0_red 1 5 5 2940 1710 N 1710 3910 1720 NJ 1720 4950J
+preplace netloc VGA_controller_0_vsync 1 4 6 2550 1530 2950 1680 NJ 1680 NJ 1680 NJ 1680 4980J
+preplace netloc microblaze_0_axi_periph_M04_AXI 1 2 3 1280 220 NJ 220 2560J
+preplace netloc i2s_transmitter_0_sclk_out 1 9 1 4950
+preplace netloc VGA_controller_0_video_on 1 4 5 2420 2130 2950 2220 3320J 2310 3920J 1290 4630J
+preplace netloc axi_bram_ctrl_3_bram_doutb 1 6 3 3450 2320 3970 1880 N
+preplace netloc mig_7series_0_ui_clk 1 6 4 3420J 890 NJ 890 N 890 4970
+preplace netloc pmod_cam_1_pclk_out 1 3 1 1700
+preplace netloc axi_iic_1_IIC 1 9 1 N
+preplace netloc microblaze_0_axi_periph_M07_AXI 1 2 5 1320 1000 1850 990 N 990 N 990 3370
+preplace netloc axi_smc_M04_AXI 1 6 2 3450 1060 3830
+preplace netloc blk_mem_gen_0_douta 1 4 1 2500
+preplace netloc xlconstant_0_dout 1 9 1 4980J
+preplace netloc microblaze_0_M_AXI_DC 1 4 3 2470 280 N 280 N
+preplace netloc VGA_controller_0_hsync 1 4 6 N 1520 2970 1670 NJ 1670 3950J 1730 NJ 1730 4940J
+preplace netloc colour_mapper_0_green 1 5 5 N 1700 N 1700 3940 1710 NJ 1710 4960J
+preplace netloc axi_if_depth_algo_0_o_vmem_ena 1 4 4 2540 2260 NJ 2260 3270 2380 3830
+preplace netloc microblaze_0_axi_periph_M05_AXI 1 2 2 1310J 1020 1730
+preplace netloc reset_1 1 0 9 0 180 730J 0 NJ 0 1830J 10 NJ 10 NJ 10 NJ 10 NJ 10 4640J
+preplace netloc axi_intc_0_interrupt 1 3 1 N
+preplace netloc axi_if_depth_algo_0_o_lmem_wea 1 7 2 4030 1510 4520
+preplace netloc rst_clk_wiz_1_100M_peripheral_aresetn 1 1 9 760 40 1230 180 1750 560 2490J 1820 2970 1820 3330 2430 4040 2330 4620J 450 4970J
+preplace netloc VGA_controller_0_x 1 4 1 2460
+levelinfo -pg 1 -30 510 1030 1580 2180 2780 3120 3660 4250 4790 5000 -top -360 -bot 2830
+"
+}
+{
+   "da_axi4_cnt":"45",
+   "da_board_cnt":"9",
+   "da_bram_cntlr_cnt":"19",
+   "da_clkrst_cnt":"5",
+   "da_mb_cnt":"1"
+}
